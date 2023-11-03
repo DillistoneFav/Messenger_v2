@@ -1,7 +1,4 @@
 @import "./styles/base.css";
 @import "./styles/variables.css";
 @import "./styles/reset.css";
-
-body {
-
-}
+@import "./styles/classes.css";

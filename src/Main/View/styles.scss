@@ -1,0 +1,16 @@
+.mainColumn {
+  height: 100%;
+
+  &__content {
+    max-width: 600px;
+    min-width: 400px;
+  }
+
+  &__resizer {
+    height: 100%;
+    width: 2px;
+    background: var(--border-color);
+    cursor: e-resize;
+    resize: horizontal;
+  }
+}
