@@ -1,4 +1,5 @@
 import { useCallback, useRef, useState } from 'react';
+import Header from './View/Header';
 import Resizer from 'Controls/resizer';
 import { INITIAL_COLUMN_WIDTH } from "./View/constants";
 
@@ -24,7 +25,9 @@ function View() {
             className="mainColumn__content flex"
         >
             <div className="flex-grow-1">
-                main lib
+                <Header className="mainColumn__header" />
+                <div>tabs</div>
+                <div>chat list</div>
             </div>
             <Resizer className="mainColumn__resizer" onResize={onResize} />
         </div>

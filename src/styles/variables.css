@@ -1,4 +1,5 @@
 :root {
+    --offset_xs: 4px;
     --offset_s: 8px;
     --offset_m: 12px;
     --offset_l: 16px;
@@ -8,6 +9,8 @@
     --main-background-color: #0F0F0F;
     --secondary-background-color: rgb(33,33,33);
 
+    --hovered-background-color: rgba(170,170,170, 0.08);
+
     --text-color: #FFFFFF;
     --secondary-text-color: rgb(170,170,170);
     --unaccented-text-color: #686C72;
@@ -15,4 +18,8 @@
     --purple-color: rgb(118,106,200);
 
     --border-color: rgb(48,48,48);
+
+    --chats-header-height: 45px;
+
+    --transition-on-hover: 0.35s all ease;
 }

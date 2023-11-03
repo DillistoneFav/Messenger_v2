@@ -1,0 +1,47 @@
+.menu {
+  padding: var(--offset_s);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: var(--transition-on-hover);
+
+  &:hover{
+    background: var(--hovered-background-color);
+  }
+
+  &-size_s {
+    width: 28px;
+    height: 28px;
+  }
+
+  &-size_m {
+    width: 38px;
+    height: 38px;
+  }
+
+  &-size_l {
+    width: 48px;
+    height: 48px;
+  }
+
+  &-size_xl {
+    width: 58px;
+    height: 58px;
+  }
+
+  &-size_container {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-element {
+    &_burger {
+      width: 100%;
+      height: 3px;
+      background: var(--text-color);
+      border-radius: 3px;
+    }
+  }
+}

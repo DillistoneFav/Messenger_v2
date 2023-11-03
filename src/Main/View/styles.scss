@@ -4,6 +4,15 @@
   &__content {
     max-width: 600px;
     min-width: 400px;
+    background: var(--secondary-background-color);
+  }
+
+  &__header {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    padding: var(--offset_s);
+    align-items: center;
+    justify-content: center;
   }
 
   &__resizer {
